@@ -1,0 +1,35 @@
+{
+    "dataset": "fgvc_aircraft",
+    "baseline_accuracy_top1": 0.24992499249924993,
+    "baseline_accuracy_top5": 0.6501650165016502,
+    "num_classes": 70,
+    "num_images": 3333,
+    "method": "Vanilla CLIP Zero-Shot",
+    "template": "a photo of a {class} aircraft",
+    "qualitative_examples": [
+        {
+            "path": "datasets\\fgvc_aircraft\\F_16\\1945975.jpg",
+            "True Class": "F_16",
+            "Predicted Class": "F_16",
+            "Result": "CORRETO"
+        },
+        {
+            "path": "datasets\\fgvc_aircraft\\Falcon_2000\\1095664.jpg",
+            "True Class": "Falcon_2000",
+            "Predicted Class": "Falcon_2000",
+            "Result": "CORRETO"
+        },
+        {
+            "path": "datasets\\fgvc_aircraft\\A340\\1260329.jpg",
+            "True Class": "A340",
+            "Predicted Class": "A330",
+            "Result": "ERROU (Fine-Grained)"
+        },
+        {
+            "path": "datasets\\fgvc_aircraft\\Global_Express\\1624196.jpg",
+            "True Class": "Global_Express",
+            "Predicted Class": "Embraer_ERJ_145",
+            "Result": "ERROU (Fine-Grained)"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+# requirements.txt
+# Core Frameworks
+torch>=2.0.0
+numpy>=1.20.0
+
+# Vision-Language Models (Hugging Face)
+transformers>=4.30.0
+datasets>=2.0.0
+
+# Data Handling & Image Processing
+Pillow>=9.0.0
+scikit-learn>=1.0.0
+
+# Utilities
+tqdm>=4.0.0  # Útil para barras de progresso durante a avaliação
