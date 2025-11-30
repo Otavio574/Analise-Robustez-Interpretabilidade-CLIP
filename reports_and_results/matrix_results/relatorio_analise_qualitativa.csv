@@ -1,0 +1,5 @@
+Imagem (Modelo),Classe Correta,Predição do CLIP,Resultado
+[Caminho Imagem 1: F-16],F-16,F-16,CORRETO
+[Caminho Imagem 2: Falcon 2000],Falcon 2000,Falcon 2000,CORRETO
+[Caminho Imagem 3: A340],A340,A330,ERROU (Fine-Grained)
+[Caminho Imagem 4: Global Express],Global Express,Embraer ERJ 145,ERROU (Fine-Grained)

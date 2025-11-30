@@ -1,0 +1,3 @@
+Métrica,Valor Encontrado,Comentário
+Acurácia Top-1 (Baseline),24.99%,Acurácia de partida. Valor baixo é esperado devido à classificação fine-grained Zero-Shot.
+Acurácia Top-5 (Baseline),65.02%,"Alto valor indica que a classe correta está nas 5 principais predições, confirmando a semântica geral."

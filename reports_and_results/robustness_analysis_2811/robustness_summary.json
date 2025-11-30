@@ -1,0 +1,10 @@
+{
+    "baseline_top1": 0.2499,
+    "tests": {
+        "Ru\u00eddo Gaussiano (Sigma=10)": 0.24392439243924394,
+        "Ru\u00eddo Gaussiano (Sigma=25)": 0.22682268226822683,
+        "Rota\u00e7\u00e3o (5 graus)": 0.26222622262226225,
+        "Rota\u00e7\u00e3o (15 graus)": 0.23222322232223222,
+        "Sem\u00e2ntica ('picture'/'plane')": 0.23072307230723071
+    }
+}

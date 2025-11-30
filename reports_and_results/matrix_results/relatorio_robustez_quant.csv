@@ -1,0 +1,7 @@
+Perturbação Aplicada,Severidade,Acúracía Top-1,Queda Absoluta (p.p.),Queda Percentual (%)
+BASELINE (Puro),N/A,24.99,N/A,N/A
+Ruído Gaussiano,sigma=10,24.39,0.6,2.4
+Ruído Gaussiano,sigma=25,22.68,2.31,9.2
+Rotação Visual,5°,26.22,-1.23,-4.9
+Rotação Visual,15°,23.22,1.77,7.1
+Semântica Textual,Template modificado,23.07,1.92,7.7
