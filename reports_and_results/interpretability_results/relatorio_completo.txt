@@ -1,0 +1,41 @@
+================================================================================
+RELATÓRIO COMPLETO DE INTERPRETABILIDADE - CLIP ViT-B/32
+================================================================================
+
+
+================================================================================
+CASO: A340 → A330
+Tipo: ERROR
+================================================================================
+
+Métodos aplicados: 6
+Melhor método: GradCAM (camada: early)
+Ativação máxima: 1.0000
+Ativação média: 0.1607
+
+Regiões identificadas: 4
+  Região 1: Ativação=0.559, Tamanho=1336 px
+  Região 2: Ativação=0.496, Tamanho=229 px
+  Região 3: Ativação=0.473, Tamanho=2504 px
+  Região 4: Ativação=0.527, Tamanho=908 px
+
+
+================================================================================
+ESTATÍSTICAS AGREGADAS
+================================================================================
+
+Total de casos: 1
+  - Erros: 1
+  - Acertos: 0
+
+CAMADAS ANALISADAS:
+  - early: 2 heatmaps
+  - middle: 2 heatmaps
+  - late: 2 heatmaps
+
+INSIGHTS:
+• Camadas iniciais mostram features visuais locais (bordas, texturas)
+• Camadas intermediárias capturam estruturas (asas, fuselagem, motores)
+• Camadas finais agregam informação semântica global
+• ScoreCAM tende a ser mais interpretável que GradCAM
+• Regiões com alta ativação indicam onde o modelo 'olha' ao decidir
